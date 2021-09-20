@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+  margin:0;
+  font-family: 'Shadows Into Light', cursive;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #8a5a44;
+}
+
+nav{
+  background: var(--primary-color);
+  padding: 1rem;
+  margin-bottom:1rem;
+  font-size: 2rem;
+  width:100%;
+}
+
+h1{
+  text-align:center;
+}
+
+main{
+  margin: 1rem auto;
+}
+
+.image-container{
+  text-align: center;
+  
+}
+
+.groot-img{
+  height: 15rem; 
+}
+
+textarea{
+  display: block;
+  width: 80%;
+  padding: 1rem;
+  margin:1rem;
+  height: 10vh;
+  font-size: 1.5rem;
+}
+
+button{
+  border:none;
+  outline:none;
+  margin-left: .5rem;
+  padding: 1rem 2rem;
+  background: var(--primary-color);
+  border-radius: 2rem;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  color: #fff;
+}
+
+#translate-output-title{
+  margin: 1rem;
+}
+
+#translate-output{
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  width: 80%;
+  min-height: 10vh;
+  overflow: scroll;
+  font-size:large;
+}
+
+footer{
+  position: relative;
+  bottom:0;
+  width:100%;
+  padding: .5rem;
+  background: var(--primary-color);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.social-icons a{
+  color:black;
+  font-size:1rem;
+  padding:.5rem;
+  margin-top: 1rem;
+}
